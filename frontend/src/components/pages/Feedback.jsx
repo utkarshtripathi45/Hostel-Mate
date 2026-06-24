@@ -33,7 +33,7 @@ const Feedback = () => {
   };
 
   return (
-    <div style={{ background: 'var(--bg-primary)', minHeight: '100vh', padding: '52px 32px' }}>
+    <div style={{ background: 'var(--bg-primary)', minHeight: '100vh', padding: '110px 52px 32px' }}>
       <style>{`
         .fb-wrap { max-width:680px; margin:0 auto; }
         .fb-card { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius); padding:36px; margin-bottom:32px; }

@@ -35,7 +35,7 @@ const AdminSocietiesPage = () => {
   };
 
   return (
-    <div style={{ background: 'var(--bg-primary)', minHeight: '100vh', padding: '52px 32px' }}>
+    <div style={{ background: 'var(--bg-primary)', minHeight: '100vh', padding: '110px 52px 32px' }}>
       <style>{`
         .as-wrap { max-width:1100px; margin:0 auto; }
         .as-form { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius);

@@ -15,7 +15,7 @@ const ComplaintsPage = () => {
   };
 
   return (
-    <div style={{ background: 'var(--bg-primary)', minHeight: '100vh', padding: '52px 32px' }}>
+    <div style={{ background: 'var(--bg-primary)', minHeight: '100vh', padding: '110px 52px 32px' }}>
       <style>{`
         .cmp-wrap { max-width:800px; margin:0 auto; }
         .cmp-card { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius);

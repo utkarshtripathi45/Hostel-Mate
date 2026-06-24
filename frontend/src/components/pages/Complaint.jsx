@@ -22,7 +22,7 @@ const Complaint = () => {
   };
 
   return (
-    <div style={{ background: 'var(--bg-primary)', minHeight: '100vh', padding: '52px 32px' }}>
+    <div style={{ background: 'var(--bg-primary)', minHeight: '100vh', padding: '120px 52px 32px' }}>
       <style>{`
         .cp-wrap { max-width:640px; margin:0 auto; }
         .cp-card { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius); padding:36px; }

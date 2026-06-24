@@ -24,7 +24,7 @@ const NoticesPage = () => {
   };
 
   return (
-    <div style={{ background: 'var(--bg-primary)', minHeight: '100vh', padding: '52px 32px' }}>
+    <div style={{ background: 'var(--bg-primary)', minHeight: '100vh', padding: '110px 52px 32px' }}>
       <style>{`
         .np-wrap { max-width:780px; margin:0 auto; }
         .np-form { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius); padding:28px; margin-bottom:32px; }

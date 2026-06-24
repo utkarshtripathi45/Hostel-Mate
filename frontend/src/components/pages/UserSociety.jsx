@@ -10,7 +10,7 @@ const UserSocietiesPage = () => {
   }, []);
 
   return (
-    <div style={{ background: 'var(--bg-primary)', minHeight: '100vh', padding: '52px 32px' }}>
+    <div style={{ background: 'var(--bg-primary)', minHeight: '100vh', padding: '110px 52px 32px' }}>
       <style>{`
         .sc-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:20px; max-width:1100px; }
         .sc-card { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius);

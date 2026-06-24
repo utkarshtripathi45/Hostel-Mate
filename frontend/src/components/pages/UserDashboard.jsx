@@ -12,7 +12,7 @@ const cards = [
 const UserDashboard = () => {
   const navigate = useNavigate();
   return (
-    <div style={{ background: 'var(--bg-primary)', minHeight: '100vh', padding: '52px 32px' }}>
+    <div style={{ background: 'var(--bg-primary)', minHeight: '100vh', padding: '110px 52px 32px' }}>
       <style>{`
         .ud-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr));
           gap:20px; max-width:960px; margin:0 auto; }

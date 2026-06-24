@@ -12,7 +12,7 @@ const Notices = () => {
   }, []);
 
   return (
-    <div style={{ background: 'var(--bg-primary)', minHeight: '100vh', padding: '52px 32px' }}>
+    <div style={{ background: 'var(--bg-primary)', minHeight: '100vh', padding: '110px 52px 32px' }}>
       <style>{`
         .nc-wrap { max-width:780px; margin:0 auto; }
         .nc-item { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius);

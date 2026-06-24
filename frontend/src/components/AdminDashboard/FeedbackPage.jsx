@@ -10,7 +10,11 @@ const FeedbackPage = () => {
   }, []);
 
   return (
-    <div style={{ background: 'var(--bg-primary)', minHeight: '100vh', padding: '52px 32px' }}>
+      <div style={{ 
+  background: 'var(--bg-primary)', 
+  minHeight: '100vh', 
+  padding: '110px 32px 52px'
+}}>
       <style>{`
         .fp-wrap { max-width:1000px; margin:0 auto; }
         .fp-table-wrap { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius); overflow:hidden; }
