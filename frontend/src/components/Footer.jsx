@@ -15,9 +15,9 @@ const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { icon: Linkedin, href: 'https://www.linkedin.com/in/kuldeepkh1305/', label: 'LinkedIn', color: 'hover:text-[#0077b5]' },
-    { icon: Github, href: 'https://github.com/kuldeep1306', label: 'GitHub', color: 'hover:text-white' },
-    { icon: Mail, href: 'mailto:kuldeepkh1305@gmail.com', label: 'Email', color: 'hover:text-amber-400' },
+    { icon: Linkedin, href: 'https://www.linkedin.com/in/utkarsh-tripathi45/', label: 'LinkedIn', color: 'hover:text-[#0077b5]' },
+    { icon: Github, href: 'https://github.com/utkarshtripathi45', label: 'GitHub', color: 'hover:text-white' },
+    { icon: Mail, href: 'mailto:utkarshtripathi124@gmail.com', label: 'Email', color: 'hover:text-amber-400' },
   ];
 
   return (
@@ -82,17 +82,17 @@ const Footer = () => {
               Get in Touch
             </h5>
             <div className="space-y-4">
-              <a href="mailto:kuldeepkh1305@gmail.com" className="group flex items-center gap-3 text-slate-400 hover:text-white transition-colors">
+              <a href="mailto:utkarshtripathi264@gmail.com" className="group flex items-center gap-3 text-slate-400 hover:text-white transition-colors">
                 <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-white/5 group-hover:bg-amber-500/20 transition-colors">
                   <Mail size={14} className="group-hover:text-amber-400" />
                 </div>
-                <span className="text-sm font-medium">kuldeepkh1305@gmail.com</span>
+                <span className="text-sm font-medium">utkarshtripathi264@gmail.com</span>
               </a>
               <div className="group flex items-center gap-3 text-slate-400">
                 <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-white/5">
                   <Phone size={14} />
                 </div>
-                <span className="text-sm font-medium">+91-8433202325</span>
+                <span className="text-sm font-medium">+91-7007664343</span>
               </div>
               <div className="group flex items-center gap-3 text-slate-400">
                 <div className="flex h-8 w-8 items-center justify-center rounded-lg bg-white/5">
@@ -111,16 +111,16 @@ const Footer = () => {
               </h5>
               <div className="space-y-2">
                 <p className="text-lg font-bold text-white leading-tight">
-                  Kuldeep Sharma
+                  Utkarsh Tripathi
                 </p>
                 <p className="text-sm text-slate-400 font-medium">
-                  Full Stack Developer & Student
+                  Full Stack Developer | Fresher
                 </p>
               </div>
             </div>
             
             <motion.a 
-              href="https://github.com/kuldeep1306"
+              href="https://github.com/utkarshtripathi45"
               target="_blank"
               whileHover={{ gap: '12px' }}
               className="mt-8 flex items-center gap-2 text-sm font-bold text-amber-500 group"
@@ -146,7 +146,7 @@ const Footer = () => {
             </span>
             <Heart size={12} className="text-red-500 animate-pulse fill-red-500" />
             <span className="text-[10px] font-bold uppercase tracking-tighter text-slate-400 text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-orange-500">
-              by Kuldeep
+              by Utkarsh Tripathi
             </span>
           </div>
         </div>

@@ -3,17 +3,17 @@ import Footer from '../Footer';
 import { Phone, User, Shield, Wifi, Coffee } from 'lucide-react';
 
 const hostels = [
-  { name: 'Tilak Hostel', type: 'BOYS', description: 'Excellent amenities with 24/7 security. Wi-Fi, mess facilities and separate rooms.',
+  { name: 'Tilak Hostel', type: 'BOYS', description: 'Excellent amenities with 24/7 security. Wi-Fi & single occupancyrooms. Best for peace and privacy.',
     warden: 'Mr. Ramesh Kumar', wardenPhone: '+919812345678', caretaker: 'Mr. Anil Verma', caretakerPhone: '+919800123456' },
-  { name: 'Shastri Hostel', type: 'BOYS', description: 'Single and double occupancy rooms with Wi-Fi, mess, and 24/7 security.',
+  { name: 'Shastri Hostel', type: 'BOYS', description: 'Single and double occupancy rooms with Wi-Fi, 24/7 security & mess for 2nd to 4th year students.',
     warden: 'Mrs. Sunita Sharma', wardenPhone: '+919876543210', caretaker: 'Ms. Rekha Gupta', caretakerPhone: '+919800654321' },
   { name: 'Sarojini Hostel', type: 'GIRLS', description: 'Modern facilities, peaceful environment with Wi-Fi, mess, and recreational area.',
     warden: 'Mr. Dinesh Mehta', wardenPhone: '+919998887766', caretaker: 'Mr. Rajat Singh', caretakerPhone: '+919800987654' },
-  { name: 'Malviya Hostel', type: 'BOYS', description: 'Good environment with Wi-Fi, mess, and all essential amenities.',
+  { name: 'Malviya Hostel', type: 'BOYS', description: 'Good environment with Wi-Fi, mess, and all essential amenities. Only for first year students.',
     warden: 'Mr. Dinesh Mehta', wardenPhone: '+919998887766', caretaker: 'Mr. Rajat Singh', caretakerPhone: '+919800987654' },
-  { name: 'Vivekanand Hostel', type: 'BOYS', description: 'Good environment with Wi-Fi, mess, and all essential amenities.',
+  { name: 'Vivekanand Hostel', type: 'BOYS', description: 'Good environment with Wi-Fi and all essential amenities. Biggest in size and capacity.',
     warden: 'Mr. Dinesh Mehta', wardenPhone: '+919998887766', caretaker: 'Mr. Rajat Singh', caretakerPhone: '+919800987654' },
-  { name: 'Patel Hostel', type: 'BOYS', description: 'Good environment with Wi-Fi, mess, and all essential amenities.',
+  { name: 'Patel Hostel', type: 'BOYS', description: 'Good environment with Wi-Fi and all essential amenities. Only for first year students.',
     warden: 'Mr. Dinesh Mehta', wardenPhone: '+919998887766', caretaker: 'Mr. Rajat Singh', caretakerPhone: '+919800987654' },
 ];
 
@@ -74,8 +74,9 @@ const Home = () => (
       <img src="/college.jpg" alt="RKGIT Campus" />
       <div className="h-hero-overlay">
         <div className="h-hero-tag">RKGIT Hostel Portal</div>
-        <h1>Raj Kumar Goel Institute<br />of Technology</h1>
-        <p>Ghaziabad, Uttar Pradesh — Your home away from home</p>
+        <h1>Raj Kumar Goel Institute of Technology</h1>
+        <h1>(RKGIT)</h1>
+        <p>Ghaziabad, Uttar Pradesh — Your home away from home!</p>
       </div>
     </div>
 
@@ -83,7 +84,7 @@ const Home = () => (
     <div className="h-section">
       <div className="h-divider" />
       <h2 className="h-sec-title">Our Hostels</h2>
-      <p className="h-sec-sub">Comfortable living with modern amenities</p>
+      <p className="h-sec-sub">Comfortable living with modern amenities.</p>
       <div className="h-grid">
         {hostels.map((h, i) => (
           <div key={i} className="h-card" style={{ animationDelay: `${i * 0.08}s` }}>
@@ -114,8 +115,8 @@ const Home = () => (
     {/* Emergency */}
     <div className="h-section" style={{ paddingBottom: '0' }}>
       <div className="h-divider" style={{ background: '#ef4444' }} />
-      <h2 className="h-sec-title">Emergency Contacts</h2>
-      <p className="h-sec-sub">Reach out immediately when needed</p>
+      <h2 className="h-sec-title">Emergency Contacts-</h2>
+      <p className="h-sec-sub">Reach out immediately when needed.</p>
       <div className="h-grid">
         {emergency.map((e, i) => (
           <div key={i} className="h-emg-card" style={{ animationDelay: `${i * 0.08}s` }}>
