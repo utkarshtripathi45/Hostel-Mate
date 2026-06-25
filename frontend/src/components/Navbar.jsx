@@ -4,8 +4,7 @@ import { motion, AnimatePresence } from 'framer-motion';
 import { clearAuth } from '../api';
 import { 
   Home, MessageSquare, AlertTriangle, 
-  Bell, Users, LogOut, Menu, X, Sparkles,
-  ShieldCheck, Fingerprint
+  Bell, Users, LogOut, Menu, X, 
 } from 'lucide-react';
 
 const navItems = [
@@ -61,7 +60,6 @@ const Navbar = () => {
                 transition={{ duration: 8, repeat: Infinity, ease: "linear" }}
                 className="absolute inset-0 bg-[conic-gradient(from_0deg,transparent_0%,#f59e0b_50%,transparent_100%)] opacity-40"
               />
-              <Fingerprint className="text-amber-500 w-6 h-6 relative z-10" />
             </div>
             <div className="flex flex-col">
               <span className="font-display font-black text-lg tracking-tighter text-white leading-none uppercase">

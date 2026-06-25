@@ -1,6 +1,6 @@
 import React from 'react';
 import Footer from '../Footer';
-import { Phone, User, Shield, Wifi, Coffee } from 'lucide-react';
+import { Phone, User, Shield} from 'lucide-react';
 
 const hostels = [
   { name: 'Tilak Hostel', type: 'BOYS', description: 'Excellent amenities with 24/7 security. Wi-Fi & single occupancyrooms. Best for peace and privacy.',
